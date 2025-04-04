@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Print greeting
-        run: echo Hello, world!
+        run: echo Hello, world
   node-version:
     runs-on: npm
     steps:
